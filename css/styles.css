@@ -129,30 +129,7 @@ color: #2e2f42;
 .adress-link:focus {
     color: #404bbf;
 }
-
-.main-button {
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    min-width: 169px;
-    height: 56px;
-    display: block;
-    border: none;
-    border-radius: 4px;
-    margin: auto;
-    
-      
-}
-
-.main-button:hover,
-.main-button:focus {
-    background-color: #404BBF
-} 
+ 
 
 /* region main */
 .page-main {
@@ -179,21 +156,46 @@ color: #2e2f42;
    
  }
 
- 
-.header-main {
-    
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-        max-width: 496px;
-        margin: 0 auto 48px auto;
-        
+ .header-main {
+
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     letter-spacing: 0.02em;
+     text-align: center;
+     color: #fff;
+     max-width: 496px;
+     margin: 0 auto 48px auto;
+
+ }
+
+.main-button {
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
 
 
 }
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF
+}
+
+
+
+
 
 .section {
     padding: 120px 0;
