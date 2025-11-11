@@ -131,7 +131,7 @@ color: #2e2f42;
 
 .main-button {
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -356,7 +356,7 @@ color: #2e2f42;
 
   .portfolio-card:hover {
       transform: translateY(-1px);
-      box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
       cursor: pointer;
   }
 
@@ -534,7 +534,7 @@ color: #f4f4fd
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px
+    max-width: 264px;
     margin-bottom: 16px;
 }
 .description-media {
@@ -544,7 +544,7 @@ color: #f4f4fd
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; */
 }
 
 
