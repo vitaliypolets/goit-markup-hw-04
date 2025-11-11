@@ -367,6 +367,10 @@ color: #2e2f42;
   width: calc((100% - 2 * 24px) / 3);
 }
 
+.item-portfolio:hover .description-potfolio-over {
+  transform: translateY(0%);
+}
+
 .portfolio-card {
     position: relative;
     overflow: hidden;
@@ -382,7 +386,6 @@ color: #2e2f42;
   position: relative;
   overflow: hidden;
 }
-
 
 .description-potfolio-over {
   position: absolute;
@@ -406,13 +409,12 @@ color: #2e2f42;
   align-items: center;
 }
 
-
-
-.item-portfolio:hover .description-potfolio-over {
-  transform: translateY(0%);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.item-portfolio:hover {
+  box-shadow: 
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 
 .item-portfolio-box {
     padding: 32px 16px;
