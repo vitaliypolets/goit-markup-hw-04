@@ -546,7 +546,7 @@ color: #f4f4fd
 }
 
 .footer-section-social {
-    align-items: baseline;
+    
 }
 
 .description-media {
@@ -595,8 +595,9 @@ color: #f4f4fd
 
 .footer-logo .container {
     display: flex;
+    align-items: baseline;
     
-   
 }
 
+ 
 
