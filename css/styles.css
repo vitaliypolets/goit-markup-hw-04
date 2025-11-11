@@ -26,6 +26,7 @@ img {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    
 
 }
 .header-container {
@@ -513,6 +514,12 @@ padding: 100px 0;
 border-bottom: 1px solid #2e2f42;
 }
 
+.footer-section-logo {
+    min-width: 300px;
+    margin-right: 120px;
+    align-items: baseline;
+}
+
 .page-logo-footer  {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -524,6 +531,7 @@ border-bottom: 1px solid #2e2f42;
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .footer-logo .logo-nav {
 color: #f4f4fd
 }
@@ -535,8 +543,12 @@ color: #f4f4fd
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-bottom: 16px;
 }
+
+.footer-section-social {
+    align-items: baseline;
+}
+
 .description-media {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -544,41 +556,29 @@ color: #f4f4fd
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
-        /* margin-bottom: 16px; */
+        margin-bottom: 16px;
 }
-
-
-
 
 .social-footer {
-display: flex;
-gap: 16px;
-}
-
-.link-social-footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color:#4d5ae5;
+    gap: 16px;
+   
 }
-
-
-
-
+.social-item {
+    width: 40px;
+    height: 40px;
+}
 
 .link-social-footer {
     
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background: rgb(77, 90, 229);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.2s ease, opacity 0.2s ease;
+       width: 100%;
+       height: 100%;
+       border-radius: 50%;
+       background: #4d5ae5;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-social-footer:hover,
@@ -595,20 +595,8 @@ gap: 16px;
 
 .footer-logo .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 120px;
+    
+   
 }
 
-.footer-section {
-    flex: 1;
-    min-width: 300px;
-    align-items: baseline;
-    margin-right: 120px
-}
-.social-footer {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    padding-top: 16px;
-}
+
