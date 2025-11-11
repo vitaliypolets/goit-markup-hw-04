@@ -382,7 +382,7 @@ color: #2e2f42;
   height: 100%;
   margin: 0;
   padding: 20px;
-  background: rgba(77, 90, 229, 0.9);
+  background: rgba(77, 90, 229, 1.0);
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -392,6 +392,7 @@ color: #2e2f42;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   /* Для вирівнювання тексту */
+  display: flex;
   align-items: center;
 }
 
